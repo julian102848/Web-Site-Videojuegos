@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+* {
+  font-family: "Manrope", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  min-height: 132vh;
+  background: url("../img/golpe-puno-jugadores-despues-ganar-juego.jpg");
+  background-size: cover;
+  background-position: center;
+  padding-top: 40px;
+}
+
+header nav {
+  width: 93%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header ul a {
+  color: white;
+  margin: 0 12px;
+  padding: 10px 14px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+header ul a:hover {
+  border-bottom: 1px solid white;
+}
+
+#hero {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 220px;
+}
+
+#hero h2 {
+  font-size: 50px;
+  color: #bd7df9;
+  font-weight: 500;
+}
+
+#hero h1 {
+  font-size: 30px;
+  color: white;
+  font-size: 400;
+  margin-bottom: 80px;
+}
+
+#hero button {
+  background: black;
+  color: #bd7df9;
+  padding: 10px 30px;
+  font-size: 30px;
+}
+
+#Tipos_de_juegos {
+  width: 100%;
+  position: relative;
+  padding: 70px 0;
+  text-align: center;
+  background-color: #8a32dd;
+  font-size: 18px;
+}
+
+#Tipos_de_juegos h2 {
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+
+#Tipos_de_juegoss {
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+#Tipos_de_juegos .fila {
+  display: flex;
+  justify-content: center;
+}
+
+#Tipos_de_juegos article {
+  margin: 20px 50px;
+  position: relative;
+}
+
+#Tipos_de_juegos article h3 {
+  position: relative;
+  top: 0px;
+  color: black;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+#Informacion {
+  width: 100%;
+  height: 10%;
+  padding: 120px 0 50px;
+  background: url(../img/PARTE\ 2\ IMAGEN.webp);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+
+#Informacion h3 {
+  color: black;
+  font-size: 50px;
+  font-size: 50px;
+}
+
+#Informacion {
+  color: black;
+  font-size: 50px;
+  margin-bottom: 50px;
+  font-size: 18px;
+}
+#Informacion h2 {
+  color: white;
+  font-size: 30px;
+  font-size: 30px;
+}
+
+#Informacion .fila {
+  display: flex;
+  justify-content: center;
+}
+
+#Informacion article {
+  margin: 60px 260px;
+  position: relative;
+}
+
+
+#contacto {
+  width: 100%;
+  text-align: center;
+  position: relative;
+  padding: 50px 0;
+  background: yellow;
+}
+
+#contacto h2 {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+#contacto p {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+#contacto form {
+  width: 650px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#contacto form input {
+  width: 36%;
+  padding: 12px 20px;
+  font-size: 20px;
+  margin: 20px;
+}
+
+#contacto form select {
+  width: 43%;
+  padding: 12px 20px;
+  font-size: 20px;
+  margin: 20px;
+}
+
+#contacto button {
+  background: black;
+  color: white;
+  font-size: 20px;
+  padding: 12px 50px;
+  border-radius: 6px;
+}
+
+footer {
+  background: black;
+  color: white;
+  padding: 30px 0 30px;
+  text-align: center;
+  margin: -50px 0 0px;
+}
